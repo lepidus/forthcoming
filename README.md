@@ -21,11 +21,17 @@ The plugin will hide the Forthcoming issue from the regular issue archive and re
 
 The plugin will hide the monographs associated with the forthcoming series from the catalog and will list them on the custom forthcoming publications page.
 
-### Workflow
-1. When you want to add a new publication to Forthcoming listing, just choose the Forthcoming issue/series from the submission metadata settings and publish it. The publication is now visible in Forthcoming page.
-2. When the actual issue/series is being published, *create a new version* for the publication, change the issue/series and publish the new version. The publication is no longer visible in the Forthcoming page.
+### OJS Workflow
+1. When you want to add a new article to Forthcoming listing, just choose the Forthcoming issue from the article metadata settings and publish the article. The article is now visible in Forthcoming page.
+2. When the actual issue is being published, *create a new version* for the article, change the issue and publish the new version. The article is no longer visible in the Forthcoming page.
 
 Note. I recommend that you do not use the OJS default pattern for DOIs with this plugin.
+
+### OMP Workflow
+1. When you want to add a new monograph to Forthcoming listing, just choose the Forthcoming series from the submission metadata settings and publish the monograph. The monograph is now visible in Forthcoming page.
+2. When the actual series is being published, *create a new version* for the monograph, change the series and publish the new version. The monograph is no longer visible in the Forthcoming page.
+
+Note. I recommend that you do not use the OMP default pattern for DOIs with this plugin.
 
 
 ***
