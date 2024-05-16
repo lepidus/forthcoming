@@ -5,13 +5,21 @@ This is a complete rewrite of the old Forthcoming plugin, which changes the enti
 
 ## Usage
 
-### Settings
-1. Create a new issue(or series if using OMP) and name it for example "Forthcoming" and *publish it*
-2. Enable the Forthcoming plugin from Website Settings
-3. In the plugin settings, choose the Forthcoming issue or series from the pull down menu and save settings
+### OJS Settings
+1. Create a new issue and name it for example "Forthcoming" and *publish the issue*
+2. Enable the Forthcoming plugin from OJS Settings
+3. In the plugin settings, choose the Forthcoming issue from the pull down menu and save settings
 4. Go to Navigation menu settings and add the Forthcoming listing page to your menu. If you want a different name, you can just create a new custom url menu item and point it to the Forthcoming listing page.
 
-The plugin will hide the Forthcoming publication from the regular archive and redirect all traffic from the table of contents page to the custom Forthcoming listing page.
+The plugin will hide the Forthcoming issue from the regular issue archive and redirect all traffic from the issue table of contents page to the custom Forthcoming listing page.
+
+### OMP Settings
+1. Create a new series and name it for example "Forthcoming" and *publish the series*
+2. Enable the Forthcoming plugin from OMP Settings
+3. In the plugin settings, choose the Forthcoming series from the pull down menu and save settings
+4. Go to Navigation menu settings and add the Forthcoming listing page to your menu. If you want a different name, you can just create a new custom url menu item and point it to the Forthcoming listing page.
+
+The plugin will hide the monographs associated with the forthcoming series from the catalog and will list them on the custom forthcoming publications page.
 
 ### Workflow
 1. When you want to add a new publication to Forthcoming listing, just choose the Forthcoming issue/series from the submission metadata settings and publish it. The publication is now visible in Forthcoming page.
